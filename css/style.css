@@ -1,0 +1,45 @@
+section#container {
+	margin: 0 auto;
+	width: 1366px;
+	height: 550px;
+	background-color: whitesmoke;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+form#feedback {
+	display: inline-grid;
+	margin-left: 500px;
+	padding-top: 50px;
+}
+
+
+input#email {
+	height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+textarea#message {
+	height: 150px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+button#submit {
+	width: 100px;
+	height: 30px;
+	color: whitesmoke;
+	background: black;
+	border-style: none;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 100px;
+}
+
+button#submit:hover {
+	background-color: #49a062;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+}
